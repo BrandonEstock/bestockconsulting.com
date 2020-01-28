@@ -1,63 +1,53 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: BEstock Consulting
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: What have I done before?
+subheading: A full-stack developer learning new things everyday
 mainpitch:
-  title: Why Kaldi
+  title: Why use me?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Tap into my years of experience learning complex technologies across the
+    entire spectrum from embedded hardware to the cloud.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Created and maintained a custom timesheet website used by 200-400 employees
+  for the last 5 years. Installed and configured a JIRA server for my
+  development team and continued to help maintain it over the next 3.5 years.
+  Developed custom player software for a video wall installation used by DoD
+  STARBASE and worked on-site to complete the physical integration. Developed
+  software for an interactive museum exhibit at The Cardinals Hall of Fame.
+  Solved workflow errors in a custom integration between Salesforce and
+  QuickBooks for a local small business. Created my own WiFi controlled
+  thermostat as an alternative to buying a Nest. I could go on but this should
+  give a good slice of my skill set.
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: >-
+        Need help with your website design? Odds are I can help steer you in the
+        right direction for your needs. If nothing off-the-shelf will work, we
+        can scope out bespoke code to fully meet your needs without any issues.
     - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: >-
+        Need help understanding how an existing system of yours works? I have
+        learned many systems over the years so I am more than comfortable acting
+        as a "reverse engineer" to help unwind how undocumented systems are
+        working. Be warned this is more art than science sometimes...
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Want to create an ecommerce offering which integrates with your existing
+        sales workflow? I will work with you to create a plan for automating
+        your existing process in logical steps to get the highest return on
+        investment.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Have any other tough problem you would like another set of eyes on? I am
+        always happy to learn provide additional troubleshooting help!
   heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  description: as
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Heading 2
+  description: Description 2
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -68,3 +58,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
