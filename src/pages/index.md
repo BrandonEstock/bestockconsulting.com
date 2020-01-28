@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: BEstock Consulting
-image: /img/home-jumbotron.jpg
+image: /img/header.jpg
 heading: What have I done before?
 subheading: A full-stack developer learning new things everyday
 mainpitch:
