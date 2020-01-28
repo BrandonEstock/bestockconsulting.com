@@ -43,19 +43,5 @@ intro:
       text: >
         Have any other tough problem you would like another set of eyes on? I am
         always happy to learn provide additional troubleshooting help!
-  heading: What we offer
-  description: as
-main:
-  heading: Heading 2
-  description: Description 2
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
 

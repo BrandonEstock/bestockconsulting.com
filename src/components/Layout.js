@@ -48,9 +48,10 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
       <div>{children}</div>
-      <Footer />
+      <div style={{textAlign: 'center'}}>
+        Copyright Brandon Estock (2020)
+      </div>
     </div>
   )
 }
