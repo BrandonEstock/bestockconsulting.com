@@ -62,43 +62,47 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <section className="section section--gradient"
-      style={{
+    <div style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
+        backgroundSize: 'cover'
       }}>
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title" style={{color: 'white'}}>{mainpitch.title}</h1>
+                  <div className="content">
+                    <div className="tile">
+                      <h1 className="title" style={{color: 'white'}}>{mainpitch.title}</h1>
+                    </div>
+                    <div className="tile">
+                      <h3 className="subtitle" style={{color: '#ededed'}}>{mainpitch.description}</h3>
+                    </div>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle" style={{color: '#ededed'}}>{mainpitch.description}</h3>
+                  <div className="columns">
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2" style={{color: 'white'}}>
+                        {heading}
+                      </h3>
+                      <p style={{color: '#ededed'}}>{description}</p>
+                    </div>
                   </div>
+                  <Features gridItems={intro.blurbs} />
                 </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2" style={{color: 'white'}}>
-                      {heading}
-                    </h3>
-                    <p style={{color: '#ededed'}}>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div style={{color: 'white', textAlign: 'center', fontWeight: 'bold'}}>Copyright Brandon Estock 2020</div>
-    </section>
+        <div style={{color: 'white', textAlign: 'center', fontWeight: 'bold'}}>Copyright Brandon Estock 2020</div>
+      </section>
+      
+
+    </div>
   </div>
 )
 
