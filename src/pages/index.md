@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Brandon Estock | BEstock Consulting
-image: /img/header.jpg
+image: /img/photo-1580218056369-53ddfbfe94f3.jpg
 heading: What have I done before?
 subheading: Software Developer & General Technology Consultant
 mainpitch:
@@ -43,5 +43,7 @@ intro:
       text: >
         Have any other tough problem you would like another set of eyes on? I am
         always happy to learn provide additional troubleshooting help!
+  heading: ' '
+  description: ' '
 ---
 
