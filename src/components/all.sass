@@ -10,6 +10,9 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+body
+  background-color: #333
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -23,15 +26,17 @@ $black: #2b2523
   flex-wrap: wrap
   justify-content: left
   align-items: center
+  color: white
   li
     padding: 0 2rem 1rem 0
     margin-bottom: 1.5rem
     margin-top: 0
 
+
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 100vh
   position: relative
   left: 50%
   right: 50%
@@ -44,7 +49,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 100vh
     background-size: cover
     background-position: bottom
     display: flex

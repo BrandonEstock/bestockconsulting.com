@@ -49,9 +49,6 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <div>{children}</div>
-      <div style={{textAlign: 'center'}}>
-        Copyright Brandon Estock (2020)
-      </div>
     </div>
   )
 }
