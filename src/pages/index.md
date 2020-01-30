@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Brandon Estock | BEstock Consulting
-image: /img/20191013_185558.jpg
+image: /img/dark_20191013_185558.png
 heading: What have I done before?
 subheading: Software Developer & General Technology Consultant
 mainpitch:
